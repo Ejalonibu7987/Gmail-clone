@@ -1,0 +1,120 @@
+.leftbar {
+  position: fixed;
+  background-color: rgb(246, 249, 253);
+  top: 66px;
+  bottom: 0;
+  left: 0;
+  width: 260px;
+}
+
+.top-leftbar {
+  display: flex;
+  align-items: center;
+  height: 56px;
+  width: 112px;
+  background-color: #c2e7ff;
+  border-radius: 16px;
+  padding: 0px 24px 0px 6px;
+  margin: 8px 0px 16px 8px;
+}
+
+.pen {
+  padding: 12px 14px 12px 12px;
+}
+
+.pen img {
+  width: 20px;
+}
+
+.compose {
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: 500;
+  padding-left: 2px;
+  margin-left: 2px;
+}
+
+.mail-group {
+  display: flex;
+  align-items: center;
+  padding: 0px 12px 0px 26px;
+  width: 202px;
+  height: 32px;
+  font-size: 14px;
+  border-top-right-radius:15px;
+  border-bottom-right-radius: 15px;
+  position: relative;
+}
+
+.mail-group:hover {
+  background-color: rgb(238, 238, 238);
+}
+
+.mail-group .tools {
+  position: absolute;
+  right: -45px;
+  background-color: rgb(62, 62, 62);
+  color: white;
+  font-size: 12px;
+  padding: 6px;
+  border-radius: 4px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s;
+}
+
+.mail-group:hover .tools {
+  opacity: 1;
+}
+
+.mail-group1 {
+  background-color: #d4e3ff;
+  display: flex;
+  align-items: center;
+  padding: 0px 12px 0px 26px;
+  width: 202px;
+  height: 32px;
+  border-top-right-radius:15px;
+  border-bottom-right-radius: 15px;
+  font-size: 14px;
+  font-weight: 600;
+  position: relative;
+}
+
+.mail-group1 .tools {
+  position: absolute;
+  right: -45px;
+  background-color: rgb(62, 62, 62);
+  color: white;
+  font-size: 12px;
+  padding: 6px;
+  border-radius: 4px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s;
+}
+
+.mail-group1:hover .tools {
+  opacity: 1;
+}
+
+.inbox-group img {
+  width: 19px;
+  margin-right: 18px;
+}
+
+.labels-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 12px 0px 26px;
+  width: 202px;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 24px 0px;
+}
+
+
+.labels-group img {
+  width: 18px;
+}

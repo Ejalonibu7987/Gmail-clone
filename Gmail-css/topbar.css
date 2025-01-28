@@ -1,0 +1,122 @@
+.topbar {
+  padding: 8px;
+  padding-bottom: 28px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background-color: rgb(246, 249, 253);
+  
+}
+
+.left-topbar {
+  display: flex;
+  align-items: center;
+  padding-right: 30px;
+  width: 208px;
+}
+
+.more {
+  padding: 12px;
+  margin: 0px 4px;
+}
+
+.more img {
+  width: 19px;
+}
+
+.gmail {
+  display: flex;
+  align-items: center;
+}
+
+.gmail img {
+  padding-right: 10px;
+  padding-left: 4px;
+  width: 33px;
+}
+
+.gmail div {
+  font-weight: 500;
+  color: rgb(95, 95, 95);
+  font-size: 22px;
+}
+
+.middle-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lmtb {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 30px;
+  background-color: rgb(233, 241, 255);
+  padding: 0px 2px;
+  margin: 0 235px 0 10px;
+}
+
+.lmtb input {
+  width: 618px;
+}
+
+.lmtb img {
+  width: 22px;
+  padding: 8px;
+  margin: 3px;
+}
+
+.lmtb .search {
+  font-size: 16px;
+  border: none;
+  background-color: rgb(233, 241, 255);;
+}
+
+.lmtb .filter-div {
+  padding: 0px 5px
+}
+
+.rmtb {
+  display: flex;
+  align-items: center;
+  width: 88px;
+  justify-content: space-between;
+}
+
+.rmtb div {
+  padding: 8px;
+  margin: 2px;
+}
+
+.rmtb img{
+  width: 24px;
+}
+
+.right-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95px;
+  padding: 8px 0px;
+}
+
+.right-topbar img {
+  width: 16px;
+  padding: 8px 13px;
+}
+
+.right-topbar .profilebox {
+  background-color: rgb(38, 161, 202);
+  padding: 7px 11px;
+  margin-right: 6px;
+  border-radius: 20px;
+}
+
+.right-topbar .profile {
+  color: white;
+}

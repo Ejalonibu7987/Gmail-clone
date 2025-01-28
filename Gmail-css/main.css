@@ -1,0 +1,219 @@
+.main {
+  padding-right: 18px;
+  border-radius: 20px;
+  background-color: white;
+  height: 1110px;
+}
+
+
+.top-main {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 46px;
+  width: 1090.22px;
+  background-color: white;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  z-index: 150;
+}
+
+.tlmb {
+  display: flex;
+  align-items: center;
+  padding-left: 19px;
+}
+
+.tlmb .icons {
+  padding: 4px 25px 0 0;
+}
+
+.tlmb img {
+  width: 14px;
+}
+
+.tik-box-group {
+  display: flex;
+  align-items: center;
+  padding-right: 28px;
+}
+
+
+.tik-box-group .tik-box {
+  padding-right: 8px;
+}
+
+.tik-box-group .down-arrow {
+  width: 10px;
+}
+
+.rtmb {
+  font-family: Arial;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 35px;
+  width: 150px;
+  color: gray;
+}
+
+.rtmb img {
+  width: 14px;
+}
+
+.mail-body {
+  padding-top: 46px;
+}
+
+.all-inboxes {
+  display: flex;
+  align-items: center;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: white;
+}
+
+.primary-div {
+  display: flex;
+  align-items: center;
+  width: 234px;
+  color: #0B57D0;
+  margin-bottom: 22px;
+}
+
+.primary {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 12px 0px 0px 17px;
+}
+
+.primary .scroll-bar {
+  width: 230px;
+  height: 3px;
+  background-color: #0B57D0;
+  margin: 0px 0px 0px 1px;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+}
+
+.all-inboxes img {
+  width: 18px;
+  padding-right: 16px;
+}
+
+.promotions-group {
+  display: flex;
+  align-items: center;
+  width: 235px;
+  padding: 12px 0px 10px 17px;
+}
+
+.promotions-group .promo-info {
+  color: gray;
+  font-weight: 500;
+  font-size: 12px
+}
+
+.promotions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 34px;
+}
+
+.promo-div {
+  display: flex;
+  align-items: center;
+}
+
+.promo-div .notification {
+  margin-left: 8px;
+  background-color: green;
+  color: white;
+  padding: 2px 4px;
+  border-radius: 10px;
+  font-size: 11px;
+}
+
+.social-group {
+  display: flex;
+  align-items: center;
+  width: 235px;
+  padding: 12px 0px 10px 17px;
+}
+
+.social-group .social-info {
+  color: gray;
+  font-weight: 500;
+  font-size: 12px
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 34px;
+}
+
+.social-div {
+  display: flex;
+  align-items: center;
+}
+
+.social-div .notification {
+  margin-left: 8px;
+  background-color: green;
+  color: white;
+  padding: 2px 4px;
+  border-radius: 10px;
+  font-size: 11px;
+}
+
+.mail-row {
+  background-color: rgb(236, 242, 250);
+  display: flex;
+  align-items: center;
+  padding: 10px 4px 10px 19px;
+  border-top: solid;
+  border-width: 1px;
+  border-color: rgb(222, 222, 222);
+}
+
+.mail-row img {
+  width: 14px;
+  padding-right: 14px;
+}
+
+.mail-row .star {
+  width: 19px;
+  padding-right: 10px;
+}
+
+.sender {
+  font-weight: 600;
+  font-size: 14px;
+  margin-right: 98px;
+  padding-right: 32px;
+}
+
+.mail-subject {
+  font-weight: 600;
+  font-size: 14px;
+  padding-right: 10px;
+}
+
+.mail-subject span {
+  color: gray;
+  font-weight: 500;
+}
+
+.mail-row .time {
+  font-size: 12px;
+  font-weight: 600;
+  padding-left: 30px;
+  margin-left: 10px;
+}
